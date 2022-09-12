@@ -145,3 +145,33 @@ nav img{
     width: 20px;
     border-radius: 50%;
 }
+/* responsive */
+@media screen and (max-width: 700px) {
+    nav .nav-items{
+        display: none;
+    }
+    nav img{
+        display: block;
+        margin-right: 70px;
+    }
+    .intro-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left-section h1{
+        font-size: 30px;
+    }
+    .action-btns{
+        margin-bottom: 10px;
+    }
+    .right-section{
+        margin-left: 50px;
+    }
+    .headphone-div{
+        margin-left: 50px;
+    }
+    .headphone-div img:last-child{
+        height: 350px;
+        width: 80%;
+    }
+}
